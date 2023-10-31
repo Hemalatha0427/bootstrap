@@ -1,1 +1,205 @@
-# bootstrap
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" > 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logoimg.jpg"></a>
+            <div class="navigation-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+              <ul>
+                    <li>
+                        <a href="">HOME</a></li>
+                       <li><a href="">ABOUT</a></li> 
+                       <li><a href="">CONTACT US</a></li> 
+                        <li><a href="">REVIEW</a></li>
+                        <li><a href="">LOGIN</a></li>
+                    </li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        
+
+        <div class="text-box">
+            <h1> THE FAMOUS SCHOOL, A GREAT START </h1>
+            <p> International School is a unique independent,
+                 coeducational, secular school offering and <br>quality teaching for early learning 
+                 primary and high school students. </P>
+                
+        <a href="" class="effe-cts">Visit us to know more!</a> </div>
+    </section>
+    <!---standards--->
+
+    <section class="standards">
+        <h2>You are all Welcome!</h2>
+        <p>Discover our top school child benefits</p>
+
+        <div class="row">
+            <div class="col">
+                <h3> School</h3>
+                <p> When you look at school, ask about.</p>
+            </div>
+
+            <div class="col">
+                <h3>Courses</h3>
+                <p> A good educate should be available.</p>
+            </div>
+
+            <div class="col">
+                <h3>Graduate</h3>
+                <p> 99% of our graduates have gone to college.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---campus--->
+
+    <section class="campus">
+        <h2>Our Global Campus</h2>
+        <p>Discover us in three different areas</p>
+
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="califonia.jpg">
+                <div class="layer">
+                    <h3>LONDEN</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="chicago.jpg">
+                <div class="layer">
+                    <h3>CHICAGO</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="austria.jpg">
+                <div class="layer">
+                    <h3>AUSTRIA</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+<!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+      
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="world record award.jpg" alt="world record award" class="d-block" width="100%" height="400px">
+              <div class="absolute">
+                <h2>Our Utmost Success</h2>
+                <p>World record proud moment for our organisation</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="national.jpg" alt="National level award" class="d-block"  width="100%" height="400px">
+              <div class="absolute">
+                <h2>Proud Moment</h2>
+                <p>Encourging young minds to reach top of all</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <img src="statelevel.jpg" alt="State level award" class="d-block"  width="100%" height="400px">
+              <div class="absolute">
+                <h2>Children Flying High</h2>
+                <p>Aiming the Sky to lead First</p>
+            </div>
+          </div>
+        </div>
+                            
+                                       
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    
+    
+    <!--facilities--->
+
+    <section class="facilities">
+        <h2>Our facilities</h2>
+         <p>The school campus offers a learner-friendly environment with a fine blend of functionality and aesthetics. From its firm foundation, the school building soars to an eight-storeyed vertical structure, symbolising an educational setting that enables students to rise to greater heights. CCTV surveillance system, wide corridors and stairwells, fire prevention system, and deployment of security personnel are among the several safety and security measures taken by the School to ensure a safe campus environment. All facilities in the school are IT-enabled, with a provision for broadband connectivity and conducting virtual classes.</p> 
+         <div class="row">
+            <div class="facilities-col">
+                <img src="activities.jpg">
+                
+                <h3>Extra-curricular activities</h3>
+                <p>We focus to make children active the whole day.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="auditorium.jpg">
+                
+                <h3>Auditorium</h3>
+                <p>We encourage children to perform their strengthns on behalf of all to enrich their carrier growth and pull out from shyness and fear.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="playground.jpg">
+            
+                <h3>Playground</h3>
+                <p>To just be wow and perform sportive help them develop physical skills and
+                    provide them with an outlet for their energy and emotions, and teach them how to control and channel them in a positive way.</p>
+                    </div>
+            </div>
+         
+
+    </section>
+
+    <!--FOOTER-->
+
+    <section class="footer">
+        <h2>About Us</h2>
+        <p>Loyal Group of Schools offers age-appropriate academic programmes that cater to the diverse academic and professional goals of our students. Since 1985, we have shown our commitment to become <br>the best helping hand for students and secured a place among the best CBSE schools in India.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i> By easy tutorials</p>
+
+    </section>
+
+    <!--javascript toggle menu-->
+    <script>
+        var navlinks=document.getElementById("navlinks")
+        function showMenu(){
+            navlinks.style.right='0';
+        }
+        function hideMenu(){
+            navlinks.style.right='-200px';
+        }
+    
+    </script>
+</body>
+</html>
