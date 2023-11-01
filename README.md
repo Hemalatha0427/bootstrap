@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,7 @@
                        <li><a href="">CONTACT US</a></li> 
                         <li><a href="">REVIEW</a></li>
                         <li><a href="">LOGIN</a></li>
-                    </li>
+                
                 </ul>
             </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
